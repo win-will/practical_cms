@@ -1,0 +1,17 @@
+{
+  "name": "practical_cms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3",
+    "console-table-printer": "^2.11.1",
+    "console.table": "^0.10.0"
+  }
+}

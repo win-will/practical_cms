@@ -12,7 +12,7 @@ VALUES ("Human Resources Representative", 50000, 1),
        ("Security Architect", 110000, 3),
        ("Vice President of Operations", 150000, 4);
 
-INSERT INTO employee (first_name, last_name, role_id)
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES ("Sam", "Jones", 1, 6),
        ("Sally", "Sue", 2, 6),
        ("John", "Smith", 3, 6),
