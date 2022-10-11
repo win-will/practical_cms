@@ -15,7 +15,7 @@ var department_names;
 async function init(){
     let cont = true;
 
-    
+    //loop through questions until user selects Quit
     while(cont) {
         // console.log(questions);
         

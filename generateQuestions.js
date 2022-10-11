@@ -1,7 +1,7 @@
 
 
 function generateQuestions (employee_names,role_titles,manager_names,department_names) {
-
+    //The inquiry questions; each has a condition and a validation if necessary
     const questions =  [
         {
             type: "list",

@@ -175,7 +175,7 @@ async function queryLogic(answers) {
             let employeeId = await queryFunctions.getEmployeeId(first,last);
             let message = await db.promise().query(sql, [employeeId]);
             // console.log(message);
-            console.log("Deleted the employee with the id " + employeeId + "in the database");
+            console.log("Deleted the employee with the id " + employeeId + " in the database");
         }
         catch(err) {
             console.log(err);
@@ -189,7 +189,7 @@ async function queryLogic(answers) {
             sql = "DELETE FROM role WHERE title = ?;";
             let message = await db.promise().query(sql, [answers.deleteRoleTitle]);
             // console.log(message);
-            console.log("Deleted the role with the title " + answers.deleteRoleTitle + "in the database");
+            console.log("Deleted the role with the title " + answers.deleteRoleTitle + " in the database");
         }
         catch(err) {
             console.log(err);
@@ -203,7 +203,7 @@ async function queryLogic(answers) {
             sql = "DELETE FROM department WHERE name = ?;";
             let message = await db.promise().query(sql, [answers.deleteDepartmentName]);
             // console.log(message);
-            console.log("Deleted the department with the name " + answers.deleteDepartmentName + "in the database");
+            console.log("Deleted the department with the name " + answers.deleteDepartmentName + " in the database");
         }
         catch(err) {
             console.log(err);
