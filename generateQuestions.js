@@ -199,7 +199,7 @@ function generateQuestions (employee_names,role_titles,manager_names,department_
             when: (answers) => answers.selectQueryType === 'Delete role'
         }
     ]
-//'Delete department','Delete role','Delete employee'
+// Delete department','Delete role','Delete employee'
     return questions;
 }
 

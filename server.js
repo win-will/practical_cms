@@ -1,10 +1,13 @@
 
+// Get all required modules 
 const inquirer = require('inquirer');
 const { exit } = require('process');
 const queryFunctions = require('./queryFunctions');
 const logic = require('./queryLogic');
 const inquiryQuestions = require('./generateQuestions');
 
+
+//Set Global variables
 var employee_names;
 var manager_names;
 var role_titles;
